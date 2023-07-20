@@ -6,15 +6,11 @@ function Timeline() {
 
       <div className="w-full h-full bg-slate-700 border border-4 border-slate-900 overflow-y-auto overflow-x-scroll">
 
-        <TimelineLayer />
-        <TimelineLayer />
-        <TimelineLayer />
-        <TimelineLayer />
-        <TimelineLayer />
-        <TimelineLayer />
-        <TimelineLayer />
-        <TimelineLayer />
-        <TimelineLayer />
+        <TimelineLayer name="Layer 1" />
+        <TimelineLayer name="Layer 2" />
+        <TimelineLayer name="Layer 3" />
+        <TimelineLayer name="Layer 4" />
+        <TimelineLayer name="Layer 5" />
 
       </div>
 
